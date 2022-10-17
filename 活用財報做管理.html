@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>活用財報做管理｜經理人商學院</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;500;700;900&family=Roboto:ital,wght@0,500;0,700;1,300;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background-image: url(mainbg.svg);
+            background-color: #fff;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-attachment: fixed;
+            /* font-family: "noto sans tc"; */
+        }
+
+        nav {
+            background-color: black;
+            width: 100%;
+            position: fixed;
+            z-index: 99px;
+            height: 83.19px;
+        }
+
+        p,
+        h3,
+        h4,
+        h5 {
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+
+        h3 {
+            font-size: 1.3em;
+            font-weight: 700;
+        }
+
+        .logo {
+            margin: auto;
+            width: 1450px;
+            height: 50px;
+            display: flex;
+
+        }
+
+        .logo-pic {
+            margin-top: 30px;
+            margin-right: 40%;
+        }
+
+        .logo-pic img {
+            width: 284.56px;
+            height: 30.14px;
+        }
+
+        .logo2 {
+            align-items: center;
+            /* text-align: right; */
+            /* width: 300px;
+            height: 30px; */
+        }
+
+        .logo3 {
+            /* margin-left: 500px; */
+            display: flex;
+            text-align: center;
+            justify-content: right;
+            align-items: center;
+        }
+
+        .logo3 li {
+            margin: 20px;
+        }
+
+        .logo3 a {
+            text-decoration: none;
+        }
+
+        .regbtn {
+            background-color: #5ebccd;
+            border-radius: 30px;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+        .regbtn:hover {
+            background-color: #468995;
+        }
+        .regbtn a {
+            height: 30px;
+            display: inline-block;
+            line-height: 30px;
+            padding: 0 20px;
+        }
+
+        .regbtn img {
+            vertical-align: middle;
+            padding-bottom: 4px;
+        }
+
+        nav a,
+        a:visited {
+            color: white;
+        }
+
+        .box {
+            width: 100%;
+            text-align: center;
+        }
+
+        .container {
+            width: 1100px;
+            margin: 0px auto;
+        }
+
+        #banner {
+            background-image: url(mainline.svg);
+            background-repeat: no-repeat;
+            /* background-attachment: fixed; */
+            /* background-size: cover; */
+        }
+
+        .banner-box {
+            padding-top: 350px;
+            /* margin-top: 350px; */
+        }
+
+        .banner-content {
+            margin-top: 30px;
+        }
+
+        .banner-content h3 {
+            font-size: 1.3em;
+            font-weight: 700;
+            padding-bottom: 10px;
+        }
+
+        .icon {
+            width: 100%;
+            display: flex;
+        }
+
+        .icon img {
+            width: 100%;
+        }
+
+        .icon div {
+            padding: 75px;
+        }
+
+        .middleline {
+            font-size: 1.2em;
+            color: #a7282e;
+        }
+
+        .middleicon {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 75px;
+        }
+
+        .middleicon img {
+            vertical-align: middle;
+            padding-bottom: 4px;
+        }
+
+        .middleicon h3 {
+            margin: 20px 0px;
+            color: #0c3755;
+        }
+
+        .middleicon h6 {
+            width: 240px;
+            padding: 0px 65px;
+        }
+
+        #banner2 {
+            background-color: #fff;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            font-weight: 700;
+            line-height: 1.75em;
+            color: #57595b;
+            /* margin: 40px; */
+            padding: 40px;
+        }
+
+        #banner3 {
+            background-color: #f8f9fa;
+            padding-bottom: 30px;
+        }
+
+        #banner3_bgc {
+            background-color: #0d3755;
+        }
+
+        #banner3_bgc h1 {
+            color: #9fd9f6;
+            font-size: 2.5em;
+            font-weight: 700;
+            line-height: 1.5em;
+            margin-left: 80px;
+        }
+
+        #banner3_bgc h6 {
+            color: white;
+            font-size: 1.2em;
+            /* margin-right: 70px; */
+        }
+
+        .banner3_shadow {
+            box-shadow: 10px 10px 0 5px #9fd9f6;
+        }
+
+        .banner3_shadow div {
+            /* margin: 20px 0px; */
+            padding: 20px;
+        }
+
+        .banner3_list {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .banner3_list div {
+            text-align: left;
+            color: white;
+        }
+
+        h4 {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #9fd9f6;
+        }
+
+        h5 {
+            font-weight: bold;
+            display: inline;
+        }
+
+        .banner3_t_name {
+            text-align: left;
+            /* margin-top: 20px; */
+            margin-bottom: 60px;
+        }
+        ul {
+            list-style: circle;
+            line-height: 2.5em;
+        }
+        #banner4 {
+            background-color: #f8f9fa;
+        }
+        #banner4 img {
+            width: 180px;
+            border-radius: 50%;
+        }
+        .banner4_intro {
+            display: flex;
+            text-align: left;
+            line-height: 1.5em;
+            justify-content: space-between;
+            padding-bottom: 100px;
+        }
+        .banner4_headline {
+            width: 321.13px;
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #0c3755;
+        }
+        .banner4_title {
+            width: 321.13px;
+            color: #0c3755;
+            font-weight: bold;
+            padding: 10px 0px;
+        }
+        .banner4_artilce {
+            width: 321.13px;
+        }
+        #banner5 {
+            background-image: url(./bg01.jpg);
+        }
+        #banner5 h2 {
+            background-color: #5ebccdc2;
+        }
+        .banner5_bgc {
+            background-color: #5ebccdc2; 
+            padding-left: 22px;   
+        }
+        .banner6 {
+            color: white;
+            background-color: #1b2d5b;  
+            /* align-items: center; */
+        }
+        .banner6 h2 {
+            color: white;
+        }
+        .banner6_container {
+            width: 900px;
+            margin: 0px auto;
+        }
+        table {
+            width: 900px;
+            margin: 0px 0px 20px 0px;
+            font-size: 1.2em;
+        }
+        tr, td, th {
+            border: 1px solid white;
+            padding: 30px 0px;
+        }
+        .banner6 caption {
+            text-align: left;
+        }
+        thead {
+            background-color: #fff;
+            color: #666;
+            font-weight: 700;
+        }
+        tbody tr:nth-child(1) {
+            background-color: #efefef;
+            font-weight: bold;   
+            color: black;
+        }
+        tbody tr:nth-child(2) {
+            background-color: #1b2d5b;   
+            color: white;
+        }
+        .table_special {
+            background-color: #a7282e;
+            color: #fff
+        }
+        .banner6_text {
+            text-align: left;
+            line-height: 1.5em;
+        }
+        .banner6_text a{
+            text-decoration: none;
+            color: #5ebccd;
+            font-size: 1.2em;
+        }
+        .banner6_text a:hover {
+            color: #468995;
+        }
+        .banner6_regbtn {
+            display: inline-block;
+            background-color: #5ebccd;
+            width: 45%;
+            height: 30px;
+            margin-top: 20px;
+            margin-bottom: 70px;
+            border-radius: 30px 30px;
+            padding-top: 15px;
+            font-size: 1.25em;
+            font-weight: 700;
+            vertical-align: middle;
+            
+        }
+        .banner6_regbtn a {
+            text-decoration: none;
+        }
+        .banner6_regbtn:hover{
+            background-color: #468995;
+        }
+        .class5 {
+            background-color: #1b2d5b;
+        }
+
+        .banner7 {
+            background-color: #f8f9fa;
+            
+        }
+        .banner7_container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .banner7_container p {
+            width: 350px;
+            height: 356px;
+            margin: 0px 7px;
+            text-align: left;
+        }
+        .banner7 img {
+            width: 349.98px;
+            height: 240px;
+            object-fit: cover;
+        }
+        .banner7_container a {
+            text-decoration: none;
+            color: black;
+        }
+        .banner7-1 img {
+            width: 1100px;
+            object-fit: contain;
+        }
+        .question {
+            background-color: white;
+            text-align: left;
+            font: 14px sans-serif;
+            color: black;
+            padding-bottom: 50px;
+        }
+        .question_container {
+            width: 900px;
+            margin: auto;
+            line-height: 3em;
+        }
+        .question h2 {
+            text-align: center;
+            font-size: 2em;
+        }
+        .question_container a{
+            color: #5ebccd;
+            text-decoration: none;
+        }
+        .question_container a:hover {
+            color: #468995;
+        }
+        footer {
+            background-color: black;
+            color: white;   
+            font-size: 1.3em;
+            padding-bottom: 30px;
+        }
+        footer ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        footer li {
+            margin: 5px;
+        }
+        footer a, a:visited {
+            color: white;
+            text-decoration: none;
+        }
+        footer p {
+            font-size: 0.7em;
+        }
+        strong {
+            font-weight: bold;
+            font-size: 1.8em;
+        }
+        /* .h2 {
+            display: inline-block;
+        }
+        .h2 span {
+            font-size: 30px;
+        } */
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <div class="logo-pic">
+                <a
+                    href="https://biz-school.bnextmedia.com.tw/business-manager?_gl=1*phdgs2*_ga*MjA1NTAxMTExOC4xNjQ4Nzk3MTE2*_ga_383SSRZR6Z*MTY0OTMzMDc1MC4zLjAuMTY0OTMzMDc1MC42MA.."><img
+                        src="mtschool-logo-21.png" alt=""></a>
+            </div>
+            <div class="logo2">
+                <ul class="logo3">
+                    <li><a href="">精彩議程</a></li>
+                    <li><a href="">課程資訊</a></li>
+                    <li><a href="">課程團票</a></li>
+                    <li class="regbtn"><a href="https://eventgo.bnextmedia.com.tw/event/view/e91808u61e7c620c374d?_gl=1*bf08du*_ga*MTA2ODMyNDk5MC4xNjQ1Nzc2NjM3*_ga_LJQ58J2DG7*MTY1MDIxMTY2Mi4yNy4xLjE2NTAyMTE3MjkuNjA.*_ga_383SSRZR6Z*MTY1MDIxMTY2Mi4xNi4xLjE2NTAyMTE3MjkuNjA.&_ga=2.9330230.2016904961.1649868270-1068324990.1645776637"><img src="nav-sign.png" alt="">立即報名
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://edm.managertoday.com.tw/finance/">
+                            <img src="fb-logo.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="box" id="banner">
+        <div class="container">
+            <div class="banner-box">
+                <div>
+                    <img src="maintopic.svg" alt="">
+                </div>
+                <div class="banner-content">
+                    <h3>財務報表是企業營運的績效成績單！</h3>
+                    <p>
+                        數字是量化企業實況的重要指標，掌握財報數據意涵，就能洞察企業的營運關鍵。<br>
+                        具備關鍵的財報與數據邏輯，有效規劃及管控未來收支，將資源投入在有價值的地方，提升企業整體績效！
+                    </p>
+                </div>
+                <div class="icon">
+                    <div><img src="icon1.svg" alt=""></div>
+                    <div><img src="icon2.svg" alt=""></div>
+                    <div><img src="icon3.svg" alt=""></div>
+                </div>
+            </div>
+            <div class="middleline">
+                <h3>—————————————————— 誰適合參與？ ——————————————————</h3>
+            </div>
+            <div class="middleicon">
+                <div>
+                    <h3>
+                        <img src="人員頭像.png" alt="">財會人員
+                    </h3>
+                    <h6>
+                        增強數字分析能力、提出關鍵意見
+                    </h6>
+                </div>
+                <div>
+                    <h3>
+                        <img src="人員頭像.png" alt="">企業經理人
+                    </h3>
+                    <h6>
+                        洞悉財報數據意涵，即時調度資源
+                    </h6>
+                </div>
+                <div>
+                    <h3>
+                        <img src="人員頭像.png" alt="">企業經營者
+                    </h3>
+                    <h6>
+                        掌握獲利關鍵，有效投注資源
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="box" id="banner2">
+        <div class="container">
+            <h2>
+                課
+                /程
+                /亮
+                /點
+            </h2>
+            <div>
+                <img src="解索三大重點.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="box" id="banner3">
+        <div class="container" style="width: 919.98px;">
+            <div>
+                <div>
+                    <h2>
+                        精
+                        /彩
+                        /議
+                        /程
+                    </h2>
+                </div>
+                <div id="banner3_bgc">
+                    <div class="banner3_shadow">
+                        <div>
+                            <h1>
+                                <span>4/27</span>
+                                從財報學管理<br>
+                            </h1>
+                            <h6>
+                                ｜三｜09:30－16:30
+                            </h6>
+                        </div>
+                        <div class="banner3_list">
+                            <div>
+                                <h4>
+                                    Part1<br>
+                                    解讀企業經營數據
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <h5>財務報表的邏輯架構</h5>
+                                    </li>
+                                    <li>
+                                        <h5>資產負債表</h5>：資產分析、資金來源分析
+                                    </li>
+                                    <li>
+                                        <h5>綜合損益表</h5>：收入分析、費用組成
+                                    </li>
+                                    <li>
+                                        <h5>現金流量表</h5>：營業、投資與籌資
+                                    </li>
+                                </ul>
+                                <div class="banner3_t_name">
+                                    <h5>張鼎聲</h5> 執業會計師暨新創事業負責人
+                                </div>
+                            </div>
+                            <div>
+                                <h4>
+                                    Part2<br>
+                                    預算編制的管理挑戰
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <h5>預算編制邏輯與迷思</h5>
+                                    </li>
+                                    <li>
+                                        <h5>預算流程控制與目標管理</h5>
+                                    </li>
+                                    <li>
+                                        <h5>資源調度</h5>：支撐虧損 vs. 穩定獲利
+                                    </li>
+                                    <li>
+                                        <h5>預算差異分析應用</h5>
+                                    </li>
+                                </ul>
+                                <div class="banner3_t_name">
+                                    <h5>龔汝沁</h5> 財務長暨整合長
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="box" id="banner4">
+        <div class="container">
+            <h2>
+            講
+            /師
+            /介
+            /紹
+            </h2>
+            <div class="banner4_intro">
+                <div>
+                    <img src="speaker03.jpg" alt="">
+                </div>
+                <div>
+                    <p class="">
+                        <div class="banner4_headline">張鼎聲</div>
+                        <div class="banner4_title">勤業眾信執業會計師暨新創事業服務團隊負責人</div>
+                        <div class="banner4_artilce">服務金融產業相關客戶，包括電信業、半導體產業、IC設計、電子製造業、商業銀行及生技公司等。熟悉台灣及美國相關上市/櫃法規，對於台灣主管機關及PCAOB相關規定，皆十分熟悉。亦提供客戶內部治理的諮詢輔導。</div>
+                    </p>
+                </div>
+                <div>
+                    <img src="speaker02.jpg" alt="">
+                </div>
+                <div>
+                    <p class="">
+                        <div class="banner4_headline">龔汝沁</div>
+                        <div class="banner4_title">關鍵評論網媒體集團財務長暨整合長</div> 
+                        <div class="banner4_artilce">曾任城邦媒體控股集團總經理暨財務長、資誠會計師事務所協理，具台灣、大陸及美國會計師資格。豐富的實務經驗，協助學員掌握預算管控關鍵。</div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="box" id="banner5">
+        <div class="">
+            <h2>學
+            /員
+            /回
+            /饋
+            </h2>
+            <div class="banner5_bgc">
+                <img src="./學員回饋.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="box banner6" id="">
+        <div class="banner6_container">
+            <h2>課
+            /程
+            /資
+            /訊
+            </h2>
+            <table>
+                <caption>
+                    活動地點：
+                    <span style="font-size: 28px;">張榮發國際會議中心</span>
+                    （台北市中正區中山南路11號）
+                </caption>
+                <thead>
+                    <tr>
+                        <th style="width: 10%;"></th>
+                        <th style="width: 30%;">一般票</th>
+                        <th style="width: 30%;">4/20前早鳥票</th>
+                        <th style="width: 30%;">三人以上團報</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>費用</td>
+                        <td>每人4,500</td>
+                        <td class="table_special">每人4,000</td>
+                        <td>每人3,700</td>
+                    </tr>
+                    <tr >
+                        <td class="" colspan="4">
+                            課程皆附贈教材，每堂贈送《經理人月刊》三期 (6月號起算)
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="banner6_text">
+                活動洽詢：02-8773-9808 分機238 黃小姐 <a href="mailto:kimberly.huang@bnext.com.tw">kimberly.huang@bnext.com.tw</a>
+            </div>
+            <div class="banner6_text">
+                客服專線：02-8771-6326　 服務時間：週一到週五9:30~12:00；13:30~17:00
+            </div>
+            <div class="banner6_regbtn">
+                <a href="https://eventgo.bnextmedia.com.tw/event/view/e91808u61e7c620c374d?_gl=1*1v79ipo*_ga*MTA2ODMyNDk5MC4xNjQ1Nzc2NjM3*_ga_LJQ58J2DG7*MTY1MDE4MzU1Ny4yNi4wLjE2NTAxODM1NTcuNjA.*_ga_383SSRZR6Z*MTY1MDE4MzU1Ny4xNS4wLjE2NTAxODM1NTcuNjA.&_ga=2.235754114.2016904961.1649868270-1068324990.1645776637">立即報名</a>
+            </div>
+        </div>
+    </section>
+    <section class="box banner7">
+        <h2>
+            相
+            /關
+            /文
+            /章
+        </h2>
+        <div class="container banner7_container">
+            <p>
+                <a
+                    href="https://www.managertoday.com.tw/columns/view/57021?_ga=2.69853208.960225406.1649301416-2055011118.1648797116&_gl=1*g5c4xf*_ga*MjA1NTAxMTExOC4xNjQ4Nzk3MTE2*_ga_LJQ58J2DG7*MTY0OTMyNTAxOC40LjEuMTY0OTMyNTI0NC42MA..">
+                    <img src="img-1533291611-12790@900.jpg" alt="">
+                </a>
+                <a
+                    href="https://www.managertoday.com.tw/columns/view/57021?_ga=2.69853208.960225406.1649301416-2055011118.1648797116&_gl=1*g5c4xf*_ga*MjA1NTAxMTExOC4xNjQ4Nzk3MTE2*_ga_LJQ58J2DG7*MTY0OTMyNTAxOC40LjEuMTY0OTMyNTI0NC42MA.."><br>為什麼年年賺錢的公司也會倒閉？會計師教你從財報看出企業的經營風險
+                </a>
+            </p>
+            <p>
+                <a
+                    href="https://www.managertoday.com.tw/columns/view/55916?_ga=2.27324340.960225406.1649301416-2055011118.1648797116&_gl=1*1skoscp*_ga*MjA1NTAxMTExOC4xNjQ4Nzk3MTE2*_ga_LJQ58J2DG7*MTY0OTMyNTAxOC40LjEuMTY0OTMyNjA2Ni42MA.."><img
+                        src="img-1523260853-11266@900.png" alt=""></a><a
+                    href="https://www.managertoday.com.tw/columns/view/55916?_ga=2.27324340.960225406.1649301416-2055011118.1648797116&_gl=1*1skoscp*_ga*MjA1NTAxMTExOC4xNjQ4Nzk3MTE2*_ga_LJQ58J2DG7*MTY0OTMyNTAxOC40LjEuMTY0OTMyNjA2Ni42MA.."><br>人事成本如何有效管控？經營者要知道的「抓大放小」原則
+                </a>
+            </p>
+            <p>
+                <a
+                    href="https://www.managertoday.com.tw/columns/view/56870?_ga=2.27324340.960225406.1649301416-2055011118.1648797116&_gl=1*1skoscp*_ga*MjA1NTAxMTExOC4xNjQ4Nzk3MTE2*_ga_LJQ58J2DG7*MTY0OTMyNTAxOC40LjEuMTY0OTMyNjA2Ni42MA.."><img
+                        src="img-1541479445-23343@900.png" alt=""></a><a
+                    href="https://www.managertoday.com.tw/columns/view/56870?_ga=2.27324340.960225406.1649301416-2055011118.1648797116&_gl=1*1skoscp*_ga*MjA1NTAxMTExOC4xNjQ4Nzk3MTE2*_ga_LJQ58J2DG7*MTY0OTMyNTAxOC40LjEuMTY0OTMyNjA2Ni42MA.."><br>主管該如何「管」預算？沒做好一件事，小心整盤變成騙局
+                </a>
+            </p>
+            <p>
+                <a
+                    href="https://www.managertoday.com.tw/articles/view/56168?_ga=2.27324340.960225406.1649301416-2055011118.1648797116&_gl=1*w04eqf*_ga*MjA1NTAxMTExOC4xNjQ4Nzk3MTE2*_ga_LJQ58J2DG7*MTY0OTMyNTAxOC40LjEuMTY0OTMyNjA3MC41Ng..">
+                    <img src="img-1527561001-57151@900.png" alt="">
+                </a>
+                <a
+                    href="https://www.managertoday.com.tw/articles/view/56168?_ga=2.27324340.960225406.1649301416-2055011118.1648797116&_gl=1*w04eqf*_ga*MjA1NTAxMTExOC4xNjQ4Nzk3MTE2*_ga_LJQ58J2DG7*MTY0OTMyNTAxOC40LjEuMTY0OTMyNjA3MC41Ng.."><br>沒受過財務訓練，要如何著手編列預算？給主管的操作指南
+                </a>
+            </p>
+            <p>
+                <a
+                    href="https://www.managertoday.com.tw/books/view/53450?_ga=2.27324340.960225406.1649301416-2055011118.1648797116&_gl=1*w04eqf*_ga*MjA1NTAxMTExOC4xNjQ4Nzk3MTE2*_ga_LJQ58J2DG7*MTY0OTMyNTAxOC40LjEuMTY0OTMyNjA3MC41Ng..">
+                    <img src="損益平衡點04-01.jpg" alt="">
+                </a>
+                <a
+                    href="https://www.managertoday.com.tw/books/view/53450?_ga=2.27324340.960225406.1649301416-2055011118.1648797116&_gl=1*w04eqf*_ga*MjA1NTAxMTExOC4xNjQ4Nzk3MTE2*_ga_LJQ58J2DG7*MTY0OTMyNTAxOC40LjEuMTY0OTMyNjA3MC41Ng.."><br>產品經理一定要會「損益平衡點」！賣多少件產品，才可以打平成本？
+                </a>
+            </p>
+            <p>
+                <a
+                    href="https://www.managertoday.com.tw/articles/view/55556?_ga=2.27324340.960225406.1649301416-2055011118.1648797116&_gl=1*w04eqf*_ga*MjA1NTAxMTExOC4xNjQ4Nzk3MTE2*_ga_LJQ58J2DG7*MTY0OTMyNTAxOC40LjEuMTY0OTMyNjA3MC41Ng..">
+                    <img src="img-1516092177-22055@900.jpg" alt="">
+                </a>
+                <a
+                    href="https://www.managertoday.com.tw/articles/view/55556?_ga=2.27324340.960225406.1649301416-2055011118.1648797116&_gl=1*w04eqf*_ga*MjA1NTAxMTExOC4xNjQ4Nzk3MTE2*_ga_LJQ58J2DG7*MTY0OTMyNTAxOC40LjEuMTY0OTMyNjA3MC41Ng.."><br>又到了考核
+                    KPI 的時刻！除了賺多少錢，老闆還在乎的 8 個績效指標
+                </a>
+            </p>
+        </div>
+        <div class="banner7-1">
+            <a
+            href="https://school.bnextmedia.com.tw/groupticket/">
+            <img src="課程團票預購.png" alt="">
+            </a>
+        </div>
+    </section>
+    <section class="box question">
+        <div class="question_container">
+            <h2>常
+                <span>/</span>見
+                <span>/</span>問
+                <span>/</span>題
+            </h2>
+            <h6>
+                <strong>Q 課程發票我什麼時候可以收到？</strong>
+                <p>A 您付款完成後的兩週內，我們會將發票寄出。</p>
+            </h6>
+            <h6>
+                <strong>Q 付款後若臨時有行程更動，可以退費嗎？</strong>
+                <p>A 若無法出席課程，請於課前來電或來信告知，可為您保留名額半年，半年內若對其他課程有興趣可轉移至該堂課，限轉移乙次；如需申請退款請於課程開始日前3個工作天告知，我們將收取課程的一成費用以及銀行轉帳之手續費，逾期恕不受理。
+                </p>
+            </h6>
+            <h6>
+                <strong>Q 我們公司同事超過2位一起報名，雜誌可以分成2個不同月份接續下去收件嗎？</strong>
+                <p>A 2人以上報名，我們會自動做雜誌接續處理 ，統一給訂購人收件，同時發票開立一張，如果有不同需求再來電告知，謝謝</p>
+            </h6>
+            <h6>
+                <strong>Q 公司請款流程會超過三天，線上報名會逾期，該怎麼辦？</strong>
+                <p>A 請填寫<a href="https://www.surveycake.com/s/wGv4M">「課程登記」</a>表單，並於付款後填寫<a
+                        href="https://www.surveycake.com/s/Ywaxb">「匯款完成」</a>表單，即算報名成功。</p><a href=""></a>
+            </h6>
+            <h6>
+                <strong>Q 我有購買課程團票方案，請問是否可以折抵於此課程？</strong>
+                <p>A 可以的，提醒您，一人一堂課使用乙張票，恕不退還差價。</p>
+            </h6>
+        </div>
+    </section>
+    <footer class="box">
+        <div class="container">
+            <ul>
+                <li>Bnext Media 媒體群 |</li>
+                <li>
+                    <a
+                        href="https://www.bnext.com.tw/?_ga=2.102231049.960225406.1649301416-2055011118.1648797116&_gl=1%2a1dfhp5d%2a_ga%2aMjA1NTAxMTExOC4xNjQ4Nzk3MTE2%2a_ga_LJQ58J2DG7%2aMTY0OTMyNTAxOC40LjEuMTY0OTMyNzYyNy42MA..">數位時代
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://www.managertoday.com.tw/?_ga=2.102231049.960225406.1649301416-2055011118.1648797116&_gl=1*1dfhp5d*_ga*MjA1NTAxMTExOC4xNjQ4Nzk3MTE2*_ga_LJQ58J2DG7*MTY0OTMyNTAxOC40LjEuMTY0OTMyNzYyNy42MA..">經理人
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://www.shoppingdesign.com.tw/?_gl=1*1dfhp5d*_ga*MjA1NTAxMTExOC4xNjQ4Nzk3MTE2*_ga_LJQ58J2DG7*MTY0OTMyNTAxOC40LjEuMTY0OTMyNzYyNy42MA..">Shopping
+                        Design
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://meet.bnext.com.tw/?_gl=1*1dfhp5d*_ga*MjA1NTAxMTExOC4xNjQ4Nzk3MTE2*_ga_LJQ58J2DG7*MTY0OTMyNTAxOC40LjEuMTY0OTMyNzYyNy42MA..">創業小聚
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://fc.bnext.com.tw/?_gl=1*1dfhp5d*_ga*MjA1NTAxMTExOC4xNjQ4Nzk3MTE2*_ga_LJQ58J2DG7*MTY0OTMyNTAxOC40LjEuMTY0OTMyNzYyNy42MA..">未來商務
+                    </a>
+                </li>
+            </ul>
+            <p>
+                &copy 2021 Business Next Media Corp. All Rights Reserved. 106 台北市大安區光復南路102號9樓
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
